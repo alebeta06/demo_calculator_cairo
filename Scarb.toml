@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2024_07"
 
 # See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
-
 [dependencies]
 starknet = "2.11.2"
+cairo_execute = "2.11.2+nightly-2025-03-12"
 
 [dev-dependencies]
 snforge_std = "0.38.0"
@@ -20,6 +20,8 @@ test = "snforge test"
 
 [tool.scarb]
 allow-prebuilt-plugins = ["snforge_std"]
+[cairo]
+enable-gas = true
 
 # Visit https://foundry-rs.github.io/starknet-foundry/appendix/scarb-toml.html for more information
 
