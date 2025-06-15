@@ -8,11 +8,11 @@ demo_calculator_cairo/
 │   ├── lib.cairo              # Declaración del módulo Calculator
 │   └── Calculator.cairo       # Smart contract de calculadora
 ├── tests/
-│   ├── Calculator_test.cairo  # Tests unitarios (24 tests)
-│   └── README.md              # Este archivo
+│   └── Calculator_test.cairo  # Tests unitarios (24 tests)
 ├── Scarb.toml                 # Configuración del proyecto
 ├── .gitignore                 # Archivos ignorados por git
-└── snfoundry.toml             # Configuración de snforge
+├── snfoundry.toml             # Configuración de snforge
+└── README.md                  # Documentación del proyecto
 ```
 
 ## 📄 Archivos del Proyecto
