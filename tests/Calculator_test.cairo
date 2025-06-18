@@ -1,5 +1,3 @@
-// tests/Calculator_test.cairo
-
 // ===== TESTS UNITARIOS PARA CALCULATOR CONTRACT =====
 // Este archivo contiene tests que verifican la lógica del smart contract
 // Los tests se ejecutan sin necesidad de desplegar el contrato
